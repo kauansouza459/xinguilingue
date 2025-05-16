@@ -1,0 +1,183 @@
+/* Reset de margin e padding e fonte branca */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #fff; /* Define a cor do texto como branco */
+  font-family: Arial, sans-serif;
+}
+
+/* Fundo com imagem cobrindo a tela */
+body {
+  background: url('https://wallpapers.com/images/featured/verde-escuro-liso-ur63sxkq3vcbsuxi.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Container principal dividido em duas colunas */
+.container {
+  display: flex;
+  height: 100%;
+}
+
+/* Sidebar com fundo cinza semitransparente */
+.sidebar {
+  background: rgba(55, 116, 63, 0.596);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 20%;
+  flex-direction: column;
+}
+
+/* Ajuste para a logo */
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Menu: lista sem marcadores e com espaçamentos */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+/* Cores equilibradas para cada botão do menu */
+.menu ul li:nth-child(1) a {
+  background-color: #0e7224;
+}
+
+.menu ul li:nth-child(2) a {
+  background-color: #1a8b23;
+}
+
+.menu ul li:nth-child(3) a {
+  background-color: #169c16;
+}
+
+.menu ul li:nth-child(4) a {
+  background-color: #4ed618;
+}
+
+.menu ul li:nth-child(5) a {
+  background-color: #1cc933;
+}
+
+.menu ul li a:hover {
+  opacity: 0.8;
+}
+
+/* Área de conteúdo: boxes empilhados verticalmente */
+.content {
+  padding: 20px;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Boxes com fundo preto semitransparente e cantos arredondados */
+.box {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Títulos das seções com destaque em amarelo escuro */
+.box h2 {
+  color: #ddc121;
+  margin-top: 0;
+}
+.imagem-cachorro {
+  width: 250px;
+}
+.c4 {
+  display: flex; /* Usando Flexbox para colocar a imagem e o texto lado a lado */
+  align-items: flex-start; /* Alinha os itens no topo (caso a imagem tenha um tamanho diferente) */
+}
+
+.imagem-cachorro {
+  width: 400px; /* Tamanho da imagem, ajuste conforme necessário */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+p {
+  max-width: 600px; /* Limita a largura do texto */
+}
+
+
+
+.secao3 {
+  width: 250px;
+}
+.c3 {
+  display: flex; /* Usando Flexbox para colocar a imagem e o texto lado a lado */
+  align-items: flex-start; /* Alinha os itens no topo (caso a imagem tenha um tamanho diferente) */
+}
+
+.secao3 {
+  width: 400px; /* Tamanho da imagem, ajuste conforme necessário */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+p {
+  max-width: 600px; /* Limita a largura do texto */
+}
+
+
+.secao2 {
+  width: 250px;
+}
+.c2 {
+  display: flex; /* Usando Flexbox para colocar a imagem e o texto lado a lado */
+  align-items: flex-start; /* Alinha os itens no topo (caso a imagem tenha um tamanho diferente) */
+}
+
+.secao2 {
+  width: 400px; /* Tamanho da imagem, ajuste conforme necessário */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+p {
+  max-width: 600px; /* Limita a largura do texto */
+}
+
+
+.secao1 {
+  width: 250px;
+}
+.c1 {
+  display: flex; /* Usando Flexbox para colocar a imagem e o texto lado a lado */
+  align-items: flex-start; /* Alinha os itens no topo (caso a imagem tenha um tamanho diferente) */
+}
+
+.secao1 {
+  width: 400px; /* Tamanho da imagem, ajuste conforme necessário */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+p {
+  max-width: 600px; /* Limita a largura do texto */
+}
+
