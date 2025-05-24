@@ -9,8 +9,16 @@ html, body {
 
 /* Fundo com imagem cobrindo a tela */
 body {
-  background: url('https://wallpapers.com/images/featured/verde-escuro-liso-ur63sxkq3vcbsuxi.jpg') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/236x/cc/12/18/cc1218b293c67826817b43ab71b664f1.jpg') no-repeat center center fixed;
+  /* Define uma imagem de fundo:
+  - 'url()' → Caminho da imagem de fundo.
+  - 'no-repeat' → Evita a repetição da imagem.
+  - 'center center' → Centraliza a imagem no meio da tela.
+  - 'fixed' → Faz com que a imagem de fundo fique fixa enquanto o usuário
+  rola a página. */
   background-size: cover;
+  /* Faz com que a imagem de fundo cubra toda a área do body, mantendo a
+  proporção e preenchendo a tela */
 }
 
 /* Container principal dividido em duas colunas */
@@ -63,19 +71,19 @@ body {
 
 /* Cores equilibradas para cada botão do menu */
 .menu ul li:nth-child(1) a {
-  background-color: #0e7224;
+  background-color: #1cc933;
 }
 
 .menu ul li:nth-child(2) a {
-  background-color: #1a8b23;
+  background-color: #1cc933;
 }
 
 .menu ul li:nth-child(3) a {
-  background-color: #169c16;
+  background-color: #1cc933;
 }
 
 .menu ul li:nth-child(4) a {
-  background-color: #4ed618;
+  background-color: #1cc933;
 }
 
 .menu ul li:nth-child(5) a {
@@ -99,7 +107,7 @@ body {
 
 /* Boxes com fundo preto semitransparente e cantos arredondados */
 .box {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.345);
   padding: 20px;
   border-radius: 5px;
 }
