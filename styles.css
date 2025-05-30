@@ -9,7 +9,7 @@ html, body {
 
 /* Fundo com imagem cobrindo a tela */
 body {
-  background: url('https://i.pinimg.com/236x/cc/12/18/cc1218b293c67826817b43ab71b664f1.jpg') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/736x/d3/f2/bd/d3f2bd03c7412e15812c83dd6de262a2.jpg') no-repeat center center fixed;
   /* Define uma imagem de fundo:
   - 'url()' → Caminho da imagem de fundo.
   - 'no-repeat' → Evita a repetição da imagem.
@@ -29,7 +29,7 @@ body {
 
 /* Sidebar com fundo cinza semitransparente */
 .sidebar {
-  background: rgba(55, 116, 63, 0.596);
+  background: rgba(55, 116, 63, 0.26);
   padding: 20px;
   box-sizing: border-box;
   display: flex;
